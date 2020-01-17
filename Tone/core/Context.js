@@ -579,6 +579,8 @@ if (Tone.supported && !Tone.initialized){
 		var printString = " * Tone.js " + prefix + Tone.version + " * "; 
 		// eslint-disable-next-line no-console
 		console.log("%c" + printString, "background: #000; color: #fff");
+		// eslint-disable-next-line no-console
+		console.log("Tone tweak test");
 	}
 } else if (!Tone.supported && !Tone.global.TONE_SILENCE_LOGGING){
 	// eslint-disable-next-line no-console
